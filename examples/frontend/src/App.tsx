@@ -32,7 +32,7 @@ function HomePage() {
       </Flex>
 
       <Grid columns="2" gap="4" justify="center">
-        <Card p="4">
+        <Card className="p-4">
           <Flex direction="column" align="center" gap="3">
             <Heading as="h3" size="4">Permission Lists</Heading>
             <Text size="2" align="center">
@@ -49,7 +49,7 @@ function HomePage() {
           </Flex>
         </Card>
 
-        <Card p="4">
+        <Card className="p-4">
           <Flex direction="column" align="center" gap="3">
             <Heading as="h3" size="4">Subscription Services</Heading>
             <Text size="2" align="center">
